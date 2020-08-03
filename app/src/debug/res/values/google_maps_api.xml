@@ -1,0 +1,25 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=5E:9E:5D:DF:99:3B:8B:D6:C7:AB:01:34:0F:49:91:7C:9B:C9:84:99%3Bcom.example.taxie
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.taxie
+
+    SHA-1 certificate fingerprint:
+    5E:9E:5D:DF:99:3B:8B:D6:C7:AB:01:34:0F:49:91:7C:9B:C9:84:99
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCwdoN7w8tOvmBhqtl6GvI9-uQaVRVhpsg
+    </string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="fbutton_color_turquoise">#1abc9c</color>
+    <color name="fbutton_color_green_sea">#16a085</color>
+    <color name="fbutton_color_orange">#000000</color>
+    <color name="fbutton_color_carrot">#e67e22</color>
+    <color name="fbutton_color_pumpkin">#d35400</color>
+    <color name="bottomText">#e67e22</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="baseReleaseColor">#E8977E</color>
+    <color name="basePressColor">#FF5722</color>
+    <color name="ballReleaseColor">#8CAF4C</color>
+    <color name="ballPressColor">#2C9530</color>
+</resources>

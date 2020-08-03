@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="30dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_email"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:text=""
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimaryDark"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_password"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:text=""
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimaryDark"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_name"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:text=""
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimaryDark"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_phone"
+            android:inputType="phone"
+            android:hint="phone"
+            android:text=""
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/black"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

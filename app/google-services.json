@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "304634421931",
+    "firebase_url": "https://taxie-4c874.firebaseio.com",
+    "project_id": "taxie-4c874",
+    "storage_bucket": "taxie-4c874.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304634421931:android:17fe042e33794a8adf4dee",
+        "android_client_info": {
+          "package_name": "com.example.taxie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304634421931-vhcthnojd24ud8frsqo93m4ma3tsrtn2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmVPLBM7afVRrrDzhLip_O9OFHrlBGaoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304634421931-vhcthnojd24ud8frsqo93m4ma3tsrtn2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

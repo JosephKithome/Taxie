@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/rootLayout"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/t_a_x_i_n_o"
+            android:textStyle="bold"
+            android:textColor="@color/bottomText"
+            android:textSize="36sp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/txt_ride_app"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/rider"
+        android:textColor="@color/bottomText"
+        android:textSize="12sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:weightSum="2"
+        android:layout_above="@id/txt_ride_app"
+        android:layout_margin="16dp">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="SIGN IN"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:id="@+id/btnSignin"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_sign_in"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:layout_marginRight="6dp"
+            android:layout_weight="1"
+            android:id="@+id/btnSignup"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_sign_in"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

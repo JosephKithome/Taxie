@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Taxie</string>
+    <string name="rider">Looking for rider app</string>
+    <string name="t_a_x_i_n_o">T A X I N O</string>
+    <string name="title_activity_welcome">Map</string>
+    <string name="enterpickup_location">EnterPickup Location</string>
+    <string name="go">Go</string>
+    <string name="google_direction_api">AIzaSyBjgePVbBwkq2h37JOlTaq3Ej1vD-2B2gE</string>
+
+
+</resources>
