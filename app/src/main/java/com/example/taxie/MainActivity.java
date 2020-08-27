@@ -22,14 +22,14 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
-import Model.User;
+import Model.Riders;
 import dmax.dialog.SpotsDialog;
 
 public class MainActivity extends AppCompatActivity {
     Button btnSignIn, btnRegister;
     FirebaseAuth auth;
     FirebaseDatabase db;
-    DatabaseReference users;
+    DatabaseReference riders;
     RelativeLayout rootLayout;
 
 
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         //        initialize firebase
         auth =FirebaseAuth.getInstance();
         db= FirebaseDatabase.getInstance();
-        users= db.getReference("Users");
+        riders= db.getReference("Riders");
 
 //        initialize view
         btnSignIn=(Button)findViewById(R.id.btnSignin);
@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void onSuccess(AuthResult authResult) {
                                 waitingDialog.dismiss();
-                                startActivity(new Intent(MainActivity.this,Welcome.class));
+                                startActivity(new Intent(MainActivity.this,HomeActivity.class));
                                 finish();
                             }
                         }).addOnFailureListener(new OnFailureListener() {
@@ -169,14 +169,14 @@ public class MainActivity extends AppCompatActivity {
                             public void onSuccess(AuthResult authResult) {
 
 //                                save user to db
-                                User user = new User();
-                                user.setEmail(edtEmail.getText().toString());
-                                user.setName(edtname.getText().toString());
-                                user.setPassword(edtpassword.getText().toString());
-                                user.setPhone(edtphone.getText().toString());
+                                Riders rider = new Riders();
+                                rider.setEmail(edtEmail.getText().toString());
+                                rider.setName(edtname.getText().toString());
+                                rider.setPassword(edtpassword.getText().toString());
+                                rider.setPhone(edtphone.getText().toString());
 
-                                users.child(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                                        .setValue(user)
+                                riders.child(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                        .setValue(rider)
                                         .addOnSuccessListener(new OnSuccessListener<Void>() {
                                             @Override
                                             public void onSuccess(Void aVoid) {

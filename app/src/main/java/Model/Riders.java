@@ -1,12 +1,12 @@
 package Model;
 
-public class User {
+public class Riders {
     private String email,password,name,phone;
 
-    public User() {
+    public Riders() {
     }
 
-    public User(String email, String password, String name, String phone) {
+    public Riders(String email, String password, String name, String phone) {
         this.email = email;
         this.password = password;
         this.name = name;
