@@ -1,0 +1,51 @@
+{
+  "Drivers" : {
+    "8CpgWhuMEhOt81OZJVylK8tWdii2" : {
+      ".priority" : "kzg1j00q21",
+      "g" : "kzg1j00q21",
+      "l" : [ -1.2293882, 38.1888232 ]
+    },
+    "DFuq9I5ikQaR5NcyRQlqhjRMHP73" : {
+      ".priority" : "kzg1j00q21",
+      "g" : "kzg1j00q21",
+      "l" : [ -1.2293882, 38.1888232 ]
+    },
+    "reHU37xyFCV8YJdMNEYNdhk2vR62" : {
+      ".priority" : "kzfm3w4ru1",
+      "g" : "kzfm3w4ru1",
+      "l" : [ -0.4491019, 36.9832508 ]
+    }
+  },
+  "Users" : {
+    "DFuq9I5ikQaR5NcyRQlqhjRMHP73" : {
+      "email" : "joseph@gmail.com",
+      "name" : "joseph",
+      "password" : "123456",
+      "phone" : "0717064174"
+    },
+    "reHU37xyFCV8YJdMNEYNdhk2vR62" : {
+      "email" : "muigakelvin2801@gmail.com",
+      "name" : "Sb ",
+      "password" : "123456",
+      "phone" : "1234"
+    },
+    "wZcbQkRqwgfjSFU3JFrkWfc0XsW2" : {
+      "email" : "jmulingw.jmk@gmail.com",
+      "name" : "sejjoh",
+      "password" : "123456",
+      "phone" : "076956656"
+    },
+    "wwUhztlvFEPt7ZLPfPiDwTV022V2" : {
+      "email" : "muigakingori@gmail.com",
+      "name" : "Sb ",
+      "password" : "012345",
+      "phone" : "123"
+    },
+    "xmzlZqZ2l4SWzJ2V6v3LlCMbrbh2" : {
+      "email" : "jacob@gmail.com",
+      "name" : "Jacob ",
+      "password" : "123456",
+      "phone" : "0759140439"
+    }
+  }
+}
