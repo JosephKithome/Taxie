@@ -22,6 +22,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
+import Common.Common;
 import Model.Riders;
 import dmax.dialog.SpotsDialog;
 
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         //        initialize firebase
         auth =FirebaseAuth.getInstance();
         db= FirebaseDatabase.getInstance();
-        riders= db.getReference("Riders");
+        riders= db.getReference(Common.user_rider_tbl);
 
 //        initialize view
         btnSignIn=(Button)findViewById(R.id.btnSignin);
